@@ -9,9 +9,8 @@ function oddFunc(){
 
 function sumFunc(){
     var sum = 0;
-    for(var i = 0; i <= 5; i++){
-        sum= sum + i
-        var num = i
+    for(var i = 1; i <= 5; i++){
+        sum= sum + i;
         alert("num: " + i,)
         console.log("num: " + i, "sum: " +sum)
     }
